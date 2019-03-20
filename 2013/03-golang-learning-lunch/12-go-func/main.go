@@ -5,7 +5,7 @@ import (
   "time"
 )
 
-// START OMIT
+// DelayedHello starts OMIT
 func DelayedHello() {
   time.Sleep(3 * time.Second)
   fmt.Printf("%d: Hello!\n", time.Now().Unix())
